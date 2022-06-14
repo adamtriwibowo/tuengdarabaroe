@@ -1,0 +1,309 @@
+/*@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+html {
+transform: rotate(-90deg);
+transform-origin: left top;
+width: 100vh;
+height: 100vw;
+overflow-x: hidden;
+position: absolute;
+top: 100%;
+left: 0;
+}
+}	*/
+.displaynone {
+    display: none;
+}
+
+p.Keterangan {
+    display: block;
+    font-weight: 600;
+    color: var(--e-global-color-primary);
+    margin: 0px 0 0px;
+    font-size: .85em;
+}
+
+p.Keterangan:before {
+    content: "— ";
+}
+
+p.Nama {
+    font-size: 1.1em;
+    margin: 1em 0 .2em;
+    line-height: 1.2;
+}
+
+.rsHomeTempl {
+    font-weight: normal !important;
+}
+
+.protected-post-container {
+    background-color: var(--e-global-color-6490657);
+    background-image: url('https://invetin.id//wp-content/uploads/2021/02/bg-hero-invetin.png');
+    margin: 0 auto;
+    border-top: 5px solid var(--e-global-color-primary);
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.protected-post-container .header-image {
+    margin-bottom: 25px;
+}
+
+form.protected-post-form {
+    max-width: 320px;
+    margin: 0 auto 80px;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+p.protected-info {
+    font-size: 15px;
+    color: var(--e-global-color-2071735);
+    line-height: 1.5;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+.protected-input input {
+    width: 100%;
+    max-width: 100%;
+    font-size: 13px;
+    padding: 3px 8px;
+}
+
+.protected-input {
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.protected-input .button {
+    background-color: var(--e-global-color-primary);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.UploadScanner {
+    margin-top: 10px;
+}
+
+.nm {
+    font-family: 'Traditional Arabic2', 'Traditional Arabic', 'Arabic Transparent', 'simplified arabic';
+    /* vertical-align: text-bottom; */
+    font-weight: normal;
+    white-space: nowrap;
+    direction: rtl;
+    unicode-bidi: normal;
+}
+
+.ar {
+    text-align: justify;
+}
+
+.arab,
+.ar {
+    text-align: right;
+    font-family: 'KFGQPC Uthman Taha Naskh', '_PDMS_Saleem_QuranFont', 'Traditional Arabic2', 'Traditional Arabic', 'Arabic Transparent', 'simplified arabic', calibri;
+    font-size: 2em;
+    line-height: 2;
+    direction: rtl;
+    vertical-align: middle;
+    direction: rtl;
+    unicode-bidi: normal;
+    text-weight: bolder;
+}
+
+.spinright {
+    -webkit-animation: spinright 3s linear infinite;
+    -moz-animation: spinright 3s linear infinite;
+    animation: spinright 3s linear infinite;
+}
+
+@keyframes spinright {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes spinright {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(2deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(-2deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+.spinleft {
+    -webkit-animation: spinleft 3s linear infinite;
+    -moz-animation: spinleft 3s linear infinite;
+    animation: spinleft 3s linear infinite;
+}
+
+@keyframes spinleft {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes spinleft {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(-2deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(2deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+.zoomtransy {
+    -webkit-animation: zoomtransy 4s infinite;
+    -moz-animation: zoomtransy 4s infinite;
+    animation: zoomtransy 4s infinite;
+}
+
+.zoomtransyup {
+    -webkit-animation: zoomtransyup 5s infinite;
+    -moz-animation: zoomtransyup 5s infinite;
+    animation: zoomtransyup 5s infinite;
+}
+
+.zoomtransx {
+    -webkit-animation: zoomtransx 5s infinite;
+    -moz-animation: zoomtransx 5s infinite;
+    animation: zoomtransx 5s infinite;
+}
+
+.zoomtransxmin {
+    -webkit-animation: zoomtransxmin 4s infinite;
+    -moz-animation: zoomtransxmin 4s infinite;
+    animation: zoomtransxmin 4s infinite;
+}
+
+.zoomanimation {
+    -webkit-animation: zoomanimation 1500ms infinite;
+    -moz-animation: zoomanimation 1500ms infinite;
+    -ms-animation: zoomanimation 1500ms infinite;
+    -o-animation: zoomanimation 1500ms infinite;
+    animation: zoomanimation 1500ms infinite;
+}
+
+.zoomanimation:hover {
+    animation: none;
+}
+
+.loader {
+    height: 100vh
+}
+
+@keyframes zoomanimation {
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@-webkit-keyframes zoomanimation {
+    50% {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+@keyframes zoomtransy {
+    50% {
+        transform: scale(1.05) translate(0, 10px) rotate(1deg);
+    }
+}
+
+@keyframes zoomtransyup {
+    50% {
+        transform: scale(1.05) translate(0, -10px) rotate(1deg);
+    }
+}
+
+@keyframes zoomtransx {
+    50% {
+        transform: scale(1.05) translate(10px, 0) rotate(1deg);
+    }
+}
+
+@keyframes zoomtransxmin {
+    50% {
+        transform: scale(1.05) translate(-10px, 0) rotate(1deg);
+    }
+}
+
+#copyButton:before,
+#copyButton1:before,
+#copyButton2:before,
+#copyButton3:before,
+#copyButton4:before {
+    content: "\f0c5";
+    padding-right: 5px;
+    line-height: 1;
+    font-weight: normal;
+    font-size: .9em;
+    font-family: 'Font Awesome 5 Free';
+}
